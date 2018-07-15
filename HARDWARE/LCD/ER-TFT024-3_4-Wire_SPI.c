@@ -303,8 +303,9 @@ void ILI9341_Initial(void)
 	Write_Cmd_Data(0xAA); //0xB0 
     
  	Write_Cmd(0x36);    // Memory Access Control 
-	Write_Cmd_Data(0xc8); //Row address order//XY exchange and X mirror
-      
+//	Write_Cmd_Data(0xc8); //Row address order//XY exchange and X mirror
+    Write_Cmd_Data(0xA8); //landscape mode
+	
  	Write_Cmd(0x3A);   //color mode
 	Write_Cmd_Data(0x55); 
     
