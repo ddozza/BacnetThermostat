@@ -17,7 +17,6 @@
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
@@ -57,3 +56,4 @@ dkms.conf
 *.bak
 *.hex
 *.m51
+**/OBJ
